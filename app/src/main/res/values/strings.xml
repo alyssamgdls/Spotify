@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Top Hits Philippines</string>
+    <string name="song_title">Song Title</string>
+    <string name="singer">Singer</string>
+    <string name="buffer">•</string>
+    <string name="album">Album</string>
+    <string name="home_menu">Home</string>
+    <string name="browse_menu">Browse</string>
+    <string name="search_menu">Search</string>
+    <string name="radio_menu">Radio</string>
+    <string name="library_menu">Library</string>
+    <string name="shuffle_play">Shuffle Play</string>
+    <string name="maroon_5">Maroon 5</string>
+    <string name="what_lovers_do_feat_sza">What Lovers Do (feat. SZA)</string>
+</resources>
