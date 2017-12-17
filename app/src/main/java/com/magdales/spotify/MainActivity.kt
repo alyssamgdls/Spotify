@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
         playlist.add(Song("Young Dumb & Broke", "Khalid", "American Teen"))
         playlist.add(Song("What Lovers Do (feat. SZA)", "Maroon 5, SZA", "Red Pill Blues (Deluxe)"))
         playlist.add(Song("Perfect", "Ed Sheeran", "÷ (Deluxe)"))
+        playlist.add(Song("Super Far", "LANY", "LANY"))
+        playlist.add(Song("Too Good At Goodbyes", "Sam Smith", "The Thrill of It All"))
 
         var adapter = CustomAdapter(playlist)
         rv.adapter = adapter
