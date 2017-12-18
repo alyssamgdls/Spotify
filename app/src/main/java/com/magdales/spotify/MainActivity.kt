@@ -16,7 +16,6 @@ import android.view.Menu
 
 class MainActivity : AppCompatActivity() {
 
-    var isFragmentLoaded = true
     val manager = supportFragmentManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigation)
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView)
+
+//        showFragment()
 
         val rv = findViewById<RecyclerView>(R.id.recyclerView)
         rv.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
@@ -48,12 +49,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun showFragment() {
-        val transaction = manager.beginTransaction()
         val fragment = Fragment()
-        transaction.replace(R.id.fragment, fragment)
+        val transaction = manager.beginTransaction()
+        transaction.add(R.id.fragment, fragment)
         transaction.addToBackStack(null)
         transaction.commit()
-        isFragmentLoaded = true
     }
 }
 
