@@ -125,7 +125,7 @@
     </android.support.v4.widget.NestedScrollView>
 
     <LinearLayout
-        android:id="@+id/fragment"
+        android:id="@+id/fragment_play"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_gravity="bottom"
@@ -141,7 +141,7 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="0"
             android:src="@drawable/arrow_up_icon"
-            android:tint="@color/white" />
+            android:tint="@color/White" />
 
         <TextView
             android:id="@+id/songTitle"
@@ -151,7 +151,7 @@
             android:layout_weight="1"
             android:gravity="end"
             android:text="@string/what_lovers_do_feat_sza"
-            android:textColor="@color/white"
+            android:textColor="@color/White"
             android:textStyle="bold" />
 
         <TextView
@@ -162,7 +162,7 @@
             android:layout_weight="0"
             android:gravity="start"
             android:text=" • "
-            android:textColor="@color/white" />
+            android:textColor="@color/White" />
 
         <TextView
             android:id="@+id/songSinger"
@@ -172,7 +172,7 @@
             android:layout_weight="1"
             android:gravity="start"
             android:text="@string/maroon_5"
-            android:textColor="@color/grey" />
+            android:textColor="@color/Gray" />
 
         <ImageView
             android:id="@+id/play_icon"
@@ -181,7 +181,7 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="0"
             android:src="@drawable/play_icon"
-            android:tint="@color/white" />
+            android:tint="@color/White" />
     </LinearLayout>
 
     <android.support.design.widget.BottomNavigationView
@@ -191,7 +191,7 @@
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
         app:itemBackground="@color/color_primary"
-        app:itemIconTint="@color/grey"
-        app:itemTextColor="@color/grey"
+        app:itemIconTint="@color/Gray"
+        app:itemTextColor="@color/Gray"
         app:menu="@menu/bottom_nav_menu" />
 </android.support.design.widget.CoordinatorLayout>

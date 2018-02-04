@@ -1,5 +1,6 @@
 package com.magdales.spotify
 
+import android.annotation.SuppressLint
 import android.support.design.internal.BottomNavigationItemView
 import android.support.design.internal.BottomNavigationMenuView
 import android.support.design.widget.BottomNavigationView
@@ -9,6 +10,7 @@ import android.util.Log
  * Created by Lai on 12/17/2017.
  */
 object BottomNavigationViewHelper {
+    @SuppressLint("RestrictedApi")
     fun disableShiftMode(view: BottomNavigationView) {
         val menuView = view.getChildAt(0) as BottomNavigationMenuView
         try {
